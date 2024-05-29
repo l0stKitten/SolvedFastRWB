@@ -1,0 +1,32 @@
+{
+  "name": "solvedfast",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aplicativo de gestión de órdenes de servicios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gestioncambiosolvedfast/solvedfast/"
+  },
+  "author": "Jean Paul Mamani Motta, Juliana Berrios Butrón, José Grados Chuquitaype, Daria López Franco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
